@@ -11,6 +11,7 @@ using namespace std;
 int main() {
     setlocale(LC_ALL, "rus");
     try {
+        cout << "              Abrosimova Maria                 " << endl;
         cout << "              очередь                  " << endl;
         std::cout << "Инициализация очереди одним элементом:\n";
         Queue<int>queue_1(1);
